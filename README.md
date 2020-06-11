@@ -2,8 +2,8 @@
 Course design of signal processing, by jineng han, 2020-06-10
 
 ## Requirement
-Required python libraries: Tensorflow with GPU support (>=1.4) + Scipy (>=1.1) + Numpy (>=1.14) + Tqdm (>=4.0.0). To install in your python distribution, run 
-`pip install -r requirements.txt`
+Required python libraries: Tensorflow with GPU support (>=1.4) + Scipy (>=1.1) + Numpy (>=1.14) + Tqdm (>=4.0.0). To install in your python distribution, run   
+`pip install -r requirements.txt`   
 Required software (for resampling): [SoX](http://sox.sourceforge.net/)
 To convert `audiofile.wav` to 32-bit floating-point audio at 16kHz sampling rate, run:  
 `sox audiofile.wav -r 16000 -b 32 -e float audiofile-float.wav`
